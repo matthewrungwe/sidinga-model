@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Body end */
+
+/* Header */
+header section{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+    .float-right{
+        float: right !important;
+    }
+/* Header end */
+
+/* Heading Section */
+.heading-section h2, .heading-section p{
+    text-align: center;
+}
+
+hr{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.response-message{
+    color: green;
+}
+/* Heading Section end */
+
+/* Form Section */
+.block{
+    display: block;
+    width: 100%;
+}
+
+    .block-item{
+        display: block;
+        margin-top: 20px;
+    }
+
+        input{
+            width: 80%;
+            height: 2.5em;
+        }
+
+        textarea{
+            height: 270px;
+            width: 80%;
+        }
+
+        .textarea{
+            margin-top: 20px;
+        }
+
+        button:hover{
+            font-size: 1.2em;
+        }
+        
+/* Form Section end */
+
+/* Medium view++ media query */
+@media(min-width: 767px){
+    /* Form Section */
+.form-section{
+    width: 100%;
+}
+
+    .block{
+        display: block;
+        width: 100%;
+    }
+
+        .block-item{
+            display: inline-block;
+            margin-top: 0px;
+            width: 40%;
+        }
+
+        .block-item:nth-child(2){
+            margin-left: 20px;
+        }
+
+            input{
+                width: 100%;
+                height: 2.5em;
+            }
+
+            textarea{
+                height: 270px;
+                width: 80%;
+            }
+/* Form Section end */
+}
+/* Medium view+ media query end*/
